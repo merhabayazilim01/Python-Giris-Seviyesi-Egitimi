@@ -5,14 +5,15 @@ gpa = 3.45
 sicak = True
 
 # String ile çalışma
-print(isim[2])
-print(isim.index("s"))
-print(isim.count("a"))
+print(isim[2]) # 2. index olan 's' harfini yazdırma
+print(isim.index("n")) #'n' harfinin kaçıncı indexte olduğunu bulmak
+print(isim.count("a")) # Kaç tane a harfi olduğunu yazdırma
+print(isim.replace("a","o") # 'a' harflerinin hepsini 'o' harfine çevirmek
 
 isim1 = "MuStAfa eMRe"
-print(isim1.capitalize())
-print(isim1.lower())
-print(isim1.upper())
+print(isim1.capitalize()) # İlk harf büyük olacak şekilde yazdırmak.
+print(isim1.lower()) # Bütün harfleri küçük yazdırmak
+print(isim1.upper()) # Bütün harfleri büyük yazdırmak
 
 #Numaralar ile Çalışma
 
