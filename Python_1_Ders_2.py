@@ -1,8 +1,8 @@
 # Değişkenler ve data türleri
-isim = "Hasan"
-karne = 85
-gpa = 3.45
-sicak = True
+isim = "Hasan" #String
+karne = 85 #Integer
+gpa = 3.45 #Float
+sicak = True #Bool
 
 # String ile çalışma
 print(isim[2]) # 2. index olan 's' harfini yazdırma
